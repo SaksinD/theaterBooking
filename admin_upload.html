@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Admin Upload</title>
+</head>
+<body>
+
+<h2>Upload Posters</h2>
+
+<form action="upload_poster.php" method="post" enctype="multipart/form-data">
+    <label for="name">Movie Name:</label><br>
+    <input type="text" id="name" name="name" required><br><br>
+    
+    <label for="poster">Select Poster:</label><br>
+    <input type="file" id="poster" name="poster" accept="image/*" required><br><br>
+    
+    <input type="submit" value="Upload">
+</form>
+
+</body>
+</html>

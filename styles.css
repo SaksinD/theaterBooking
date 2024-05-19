@@ -1,0 +1,87 @@
+/* Seats */
+#seat-selection {
+    padding-top: 150px;
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.floor-seats,
+.balcony-seats {
+    width: 48%; /* Adjust as needed */
+}
+
+.floor-seats h2,
+.balcony-seats h2 {
+    margin-top: 0;
+    color: #0CE7EB;
+}
+
+.seat {
+    width: 40px;
+    height: 40px;
+    background-color: #ccc;
+    border: 1px solid #aaa;
+    margin: 5px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.seat.booked {
+    background-color: #ff0000;
+}
+
+/* Form */
+#booking-form {
+    width: 100%;
+    margin: 20px auto;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+}
+
+#booking-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+#booking-form input[type="text"] {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+#booking-form button {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#booking-form button:hover {
+    background-color: #0056b3;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    /*background-image: url('./images/indexpage_bg.svg');*/
+    background-color: rgb(255, 255, 255);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
